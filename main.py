@@ -69,3 +69,4 @@ for elemento in resultado:
 print(tabulate(tabela, headers=cabecalho, tablefmt='fancy_grid', showindex='always'))
 
 salve = SalvaFundos(resultado, "teste.txt")
+salve.salvar()

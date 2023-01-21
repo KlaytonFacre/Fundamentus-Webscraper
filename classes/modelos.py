@@ -93,7 +93,6 @@ class SalvaFundos:
 
     def salvar(self):
         with open(self.caminho_arquivo, 'a') as stream:
-            stream.write(f'FUNDOS APROVADOS EM {datetime.now()}\n'.center())
             tabela = []
             cabecalho = ['CODIGO', 'SEGMENTO', 'COTAÇÃO ATUAL', 'DIVIDEND YIELD']
             for fundo in self.fundos:
@@ -104,5 +103,5 @@ class SalvaFundos:
                     f'{locale.str(fundo.dividend_yield)} %'
                 ])
 
-                dados_saida = tabulate(tabela, headers=cabecalho, tablefmt='fancy_grid', showindex='always')
-                stream.write(dados_saida)
+            stream.write(f'FUNDOS APROVADOS EM {datetime.now()}\n')
+            stream.write(tabulate(tabela, headers=cabecalho, tablefmt='fancy_grid', showindex='always'))
