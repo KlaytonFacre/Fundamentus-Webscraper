@@ -14,7 +14,9 @@ O programa:
 6. Se sim, armazena em uma lista
 7. Se não, descarta o objeto
 
-Ao final temos uma lista que é printada na tela do terminal com todos os fundos listados na página **que atendem à estratégia**. Adicionei a funcionalidade de também permitir que os dados sejam salvos em um arquivo .TXT
+Ao final temos uma lista que é printada na tela do terminal com todos os fundos listados na página **que atendem à estratégia**. 
+
+Adicionei a funcionalidade de também permitir que os dados sejam salvos em um arquivo .TXT
 
 ## Bibliotecas utilizadas
 * Requests
