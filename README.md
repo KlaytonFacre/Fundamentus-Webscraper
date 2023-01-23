@@ -1,4 +1,4 @@
-# Webscraping
+# Fundamentus Webscraper
  Webscraping de dados financeiros de FIIs do site fundamentus.com.br utilizando python.
 
 O objetivo é extrair as informações sobre FII disponíveis [na página](https://fundamentus.com.br/fii_resultado.php) e armazenar em Objetos FundoImobiliário dentro do programa.
